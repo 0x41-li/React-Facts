@@ -63,3 +63,47 @@ header .nav-right-part {
   line-height: 20px;
   font-weight: 600;
 }
+
+/* Main Content */
+
+.main-content {
+  background: url("./assets/icons/reactjs-big.png") no-repeat top 107px right;
+  padding-bottom: 60px;
+}
+
+.main-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+
+  padding-top: 57px;
+  padding-bottom: 46px;
+
+  padding-left: 27px;
+}
+
+.main-content ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  gap: 20px;
+
+  padding-right: 81px;
+  padding-left: 54px;
+}
+
+.main-content ul li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  background: url("./assets/icons/blue-circle.png") no-repeat top 5px left 0px;
+
+  padding-left: 20px;
+}
+
+
