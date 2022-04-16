@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: rgb(249, 249, 249);
   color: #ffffff;
 
   display: flex;
@@ -57,7 +57,7 @@ nav .logo p {
 
 /* header right-part */
 
-header .nav-right-part {
+header .nav-right-part p {
   color: #deebf8;
   font-size: 16px;
   line-height: 20px;
@@ -106,4 +106,52 @@ header .nav-right-part {
   padding-left: 20px;
 }
 
+/* responsive version (Mobile) */
 
+@media screen and (max-width: 576px) {
+  body {
+    display: block;
+    background-color: #282d35;
+  }
+
+  #app {
+    width: 100%;
+    height: auto;
+  }
+
+  header {
+    padding: 0px 12px;
+  }
+
+  nav .logo p {
+    line-height: 23px;
+    font-size: 18px;
+  }
+
+  header .nav-right-part p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .main-content {
+    background: url("./assets/icons/reactjs-big.png") no-repeat top 87px right / 80px;
+    padding-bottom: 60px;
+  }
+  
+  .main-content h1 {
+    font-size: 30px;
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .main-content ul {
+    padding: 0px 20px 0px 50px;
+  }
+
+  .main-content ul li {
+    font-size: 12px;
+  }
+
+  
+}
