@@ -12,3 +12,7 @@ This a Simple Static React project From Scrimba Platform Where I Practice The Ba
 - Styling.
 - importing Things.
 - Functional Components.
+
+## Links
+
+Live Preview: https://0x41-li.github.io/react-facts/

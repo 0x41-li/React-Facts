@@ -1,5 +1,6 @@
 {
   "name": "react-facts",
+  "homepage": "https://0x41-li.github.io/react-facts/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
